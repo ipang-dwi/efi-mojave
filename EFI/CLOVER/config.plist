@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>This file is for HD4000 1366x768 on 7-series chipset (typical)</string>
+	<string>This file is for HD3000 1366x768 on 7-series chipset (atypical)</string>
 	<key>ACPI</key>
 	<dict>
 		<key>AutoMerge</key>
@@ -16,6 +16,12 @@
 			<false/>
 			<key>Fixes</key>
 			<dict>
+				<key>Comment-Mixed IMEI/HD graphics</key>
+				<string>Needed for FakeID/IMEI for 7-series IMEI with HD3000</string>
+				<key>AddDTGP</key>
+				<true/>
+				<key>AddIMEI</key>
+				<true/>
 				<key>Comment-IRQ Fix</key>
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
 				<key>FixTMR</key>
@@ -187,8 +193,6 @@
 				<false/>
 				<key>APLF</key>
 				<false/>
-				<key>PluginType</key>
-				<false/>
 			</dict>
 			<key>NoOemTableId</key>
 			<false/>
@@ -197,7 +201,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>kext-dev-mode=1 dart=0 slide=0 nv_disable=1 -cdfon</string>
+		<string>kext-dev-mode=1 dart=0 slide=0 nv_disable=1 -cdfon -igfxnohdmi -no_compat_check -v -f</string>
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
@@ -292,23 +296,32 @@
 				<string>Inject bogus device-id to prevent graphics drivers loading for AMD</string>
 			</dict>
 		</array>
+		<key>NoDefaultProperties</key>
+		<true/>
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
 			<integer>0</integer>
 		</dict>
+		<key>FakeID</key>
+		<dict>
+			<key>IMEI</key>
+			<string>0x1c3a8086</string>
+		</dict>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0)/Pci(0x02,0)</key>
 			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>AwBmAQ==</data>
+				<key>AAPL,snb-platform-id</key>
+				<data>AAABAA==</data>
 				<key>#hda-gfx</key>
 				<string>onboard-1</string>
 				<key>#AAPL00,override-no-connect</key>
 				<data></data>
 				<key>#AAPL00,override-no-edid</key>
 				<data></data>
+				<key>#AAPL,os-info</key>
+				<data>MEkBERERCAAAAfAfAQAAABAHAAA=</data>
 				<key>framebuffer-patch-enable</key>
 				<integer>1</integer>
 				<key>## @1 HDMI</key>
@@ -335,6 +348,10 @@
 				<data>AAgAAA==</data>
 				<key>#framebuffer-con3-flags</key>
 				<data>BgAAAA==</data>
+				<key>## @2 VGA</key>
+				<string></string>
+				<key>#framebuffer-con2-alldata</key>
+				<data>BgIAAAABAAAJAAAA</data>
 			</dict>
 			<key>PciRoot(0)/Pci(0x1b,0)</key>
 			<dict>
@@ -411,13 +428,13 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
+		<key>#DualLink</key>
+		<integer>0</integer>
 		<key>#EDID</key>
 		<dict>
 			<key>Inject</key>
 			<false/>
 		</dict>
-		<key>#ig-platform-id</key>
-		<string>0x01660003</string>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
@@ -427,6 +444,8 @@
 			<key>NVidia</key>
 			<true/>
 		</dict>
+		<key>#snb-platform-id</key>
+		<string>0x00010000</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -435,8 +454,6 @@
 		<key>AppleRTC</key>
 		<true/>
 		<key>DellSMBIOSPatch</key>
-		<false/>
-		<key>KernelXCPM</key>
 		<false/>
 		<key>KernelLapic</key>
 		<true/>
