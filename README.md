@@ -1,4 +1,7 @@
 # efi-mojave
+
+<img src="https://raw.githubusercontent.com/ipang-dwi/efi-mojave/master/img/ss.png" />
+
 efi partition files for install mojave on asus x45c
 
 Copas saja semua yang ada di dalam folder EFI ke partisi EFI pada USB installer mojave yang telah dibuat.. Proses load pertama kali akan agak lama, tampilan kaya' diulang-ulang, tapi sabar saja.. Hanya seakan-akan looping, tapi sebenarnya itu proses virtualsmc, untuk menggenerate fake info hackintosh sesuai file config.plist..
