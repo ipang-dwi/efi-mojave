@@ -46,6 +46,6 @@ Ane g sanggup lama2 di mojave, gersang euy.. ini os paling rakus ram yg pernah a
 Makasih bwt kang Brilliant Edgar Rosandy atas dmg nya, Yos Beda, Badruzeus Shava n Rony Roland atas inspirasinya.. Forum FB Hackintosh Indonesia..
 
 Feel free to reach me on :
-https://www.firstplato.com
-https://www.facebook.com/firstplato
-admin@firstplato.com
+- https://www.firstplato.com
+- https://www.facebook.com/firstplato
+- admin@firstplato.com
