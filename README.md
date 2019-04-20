@@ -36,7 +36,7 @@ Yg belom fungsi :
 - tombol back n forward di usb mouse juga g bisa dipakai, juga klo pke yg dpi nya bisa disetting, tiap login harus setting ulang lagi, ane pke rexus xierra x3.. *update : ud bisa pakai app https://sensible-side-buttons.archagon.net/
 - sisanya yg g ada di ss brarti g bisa :D
 
-Wallapaper : cabutan dari wallpaper bawaan os manjaro deepin..
+Wallpaper : cabutan dari wallpaper bawaan os manjaro deepin..
 
 Installer DMG nemu di file docs grup..
 
