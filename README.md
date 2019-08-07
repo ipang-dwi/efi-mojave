@@ -48,7 +48,7 @@ Makasih bwt kang Brilliant Edgar Rosandy atas dmg nya, Yos Beda, Badruzeus Shava
 Logs :
 07/08/2019
 - tested on Mojave 10.14.16
-- working perfect
+- working perfectly..
 18/07/2019 5.56PM 
 - persiapan install ulang Mojave 10.14.4
 - tested on Mojave 10.14.4
