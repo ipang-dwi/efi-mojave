@@ -46,9 +46,12 @@ Ane g sanggup lama2 di mojave, gersang euy.. ini os paling rakus ram yg pernah a
 Makasih bwt kang Brilliant Edgar Rosandy atas dmg nya, Yos Beda, Badruzeus Shava n Rony Roland atas inspirasinya.. Forum FB Hackintosh Indonesia..
 
 Logs :
+07/08/2019
+- tested on Mojave 10.14.16
+- working perfect
 18/07/2019 5.56PM 
 - persiapan install ulang Mojave 10.14.4
-- tested Mojave 10.14.4
+- tested on Mojave 10.14.4
 
 
 Feel free to reach me on :
