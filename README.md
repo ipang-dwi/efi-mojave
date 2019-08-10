@@ -1,13 +1,37 @@
 # efi-mojave
 
+EFI partition Mojave for Asus X45C - www.firstplato.com - <a href="https://github.com/ipang-dwi/efi-mojave/wiki" target="_blank">Dokumentasi Lengkapnya</a>
+
 <img src="https://raw.githubusercontent.com/ipang-dwi/efi-mojave/master/img/ss.png" />
 
-efi partition files for install mojave on asus x45c
+> Nyaman di MacOS Mojave 10.14.6 (18G87) bersama dengan Asus X45C, "The perfect reborn Hackintosh for daily used".
 
 Tested on Asus X45C
-Device : Asus X45C
+- Device : Asus X45C
+- Brand : Asus
+- Type : X45C
+- Bios : AMI - American Megatrends International, Aptio V
+- Bios Version : 208
 
+Specs :
+- Procie : Intel Core i3-2350M 2.3GHz
+- VGA : Intel HD3000
+- HDD : Toshiba 500GB SATA2 5400RPM, replace with SSD Avexir 120GB SATA3
+- ODD : Panasonic DVD-RW SATA2, replace with HDD HGST 1TB 7200RPM mod HDD Caddy
+- RAM : Micron 2GB DDR3 1333, extend with Samsung 8GB DDR3L 1600
+- Additional : USB Mouse Rexus Xierra X3
 
+Perfect work :
+- VGA : Intel HD3000, patch based High Sierra 10.13.6 dari om chris111, optimasi karya om dosdude. Update Intel HD 3000 VRAM 2GB by me, patchnya <a href="Patch Intel HD 3000 for VRAM allocation on MacOSX ">di sini</a>.
+- Audio : latest AppleALC.kext + layout-id : 21 by acidanthera. Lancar jaya, auto switch output.
+- Camera / USB 2.0 Asus Webcam : latest USBInjectAll.kext by Rehabman.
+- LAN Realtek RTL8411 : RealtekRTL8111.kext by Rehabman.
+- Wifi Atheros 9485 : patch IO80211Family.kext dari Muhammad Arif Isnaini, Forum Hackintosh Indonesia. Tested totally full speed.
+- RAM Dual Channel : native tanpa kext, 2GB DDR3 1333 + 8GB DDR3 1600, yang menarik clockspeed yang dipakai yang 1600.
+- Baterai, termasuk indikatornya, shutdown, restart, sleep/hibernate : patch manual referensi dari om Rehabman + latest ACPIBatteryManager.kext.
+- Tombol Fn, bekerja normal semua, hanya buat Brightness UP and Down yang gak bisa.
+- Brightness : latest SSDT-PNLF.aml dari om Rehabman, work pakai slider dan Tombol F5 - F6 di-remapping pada keyboard shortcut di System Preferences.
+- USB Mouse 7D : SensibleSideButtons dari om Alexei Baboulevitch, tested lancar jaya USB Mouse Rexus Xierra X3
 
 Versi lama :
 
