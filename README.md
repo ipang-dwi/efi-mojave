@@ -91,3 +91,6 @@ Logs :
 > 18/07/2019 5.56PM 
 - persiapan install ulang Mojave 10.14.4
 - tested on Mojave 10.14.4
+> 22/04/2019
+- tested on Mojave 10.14.1
+- review moved to <a href="https://github.com/ipang-dwi/efi-mojave/wiki/Review-Lama---Mojave-10.14.1-pada-Asus-X45C">here</a>
