@@ -4,6 +4,13 @@
 
 efi partition files for install mojave on asus x45c
 
+Tested on Asus X45C
+Device : Asus X45C
+
+
+
+Versi lama :
+
 Copas saja semua yang ada di dalam folder EFI ke partisi EFI pada USB installer mojave yang telah dibuat.. Proses load pertama kali akan agak lama, tampilan kaya' diulang-ulang, tapi sabar saja.. Hanya seakan-akan looping, tapi sebenarnya itu proses virtualsmc, untuk menggenerate fake info hackintosh sesuai file config.plist..
 
 Setelah selesai install dan sudah menginstall clover di hdd/ssd, buka file config.plist pada line 208 :
