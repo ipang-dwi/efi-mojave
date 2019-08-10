@@ -85,9 +85,9 @@ Feel free to reach me on :
 - WA o856 48587 856
 
 Logs :
-07/08/2019
+> 07/08/2019
 - tested on Mojave 10.14.16
 - working perfectly..
-18/07/2019 5.56PM 
+> 18/07/2019 5.56PM 
 - persiapan install ulang Mojave 10.14.4
 - tested on Mojave 10.14.4
