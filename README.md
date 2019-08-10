@@ -23,7 +23,7 @@ Device : asus x45c
 Spek : core i3 2350m, ram ddr3 4gb, ssd avexir e100 120gb, hdd hgst 500gb, vga intel hd3000
 
 Booting pertama setelah install agak lama, perfomance juga agak bikin geregetan.. tapi setelah install kext bwt vga, overall mulus.. cman agak aneh bwt light theme, jadi prefer ke dark theme..
-
+works all..
 Yg berfungsi :
 - procie, totalitas, pke config.plist device mbp9.2
 - intel hd3000, smooth, no glitch, cman meski dvmt disetting 512mb di bios, tetep kedetectnya 300an..
