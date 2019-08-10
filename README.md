@@ -2,7 +2,7 @@
 
 EFI partition Mojave for Asus X45C - www.firstplato.com - <a href="https://github.com/ipang-dwi/efi-mojave/wiki" target="_blank">Dokumentasi Lengkapnya</a>
 
-<img src="https://raw.githubusercontent.com/ipang-dwi/efi-mojave/master/img/ss.png" />
+<img src="https://raw.githubusercontent.com/ipang-dwi/efi-mojave/master/img/1.png" />
 
 > Nyaman di MacOS Mojave 10.14.6 (18G87) bersama dengan Asus X45C, "The perfect reborn Hackintosh for daily used".
 
@@ -21,7 +21,7 @@ Specs :
 - RAM : Micron 2GB DDR3 1333, extend with Samsung 8GB DDR3L 1600
 - Additional : USB Mouse Rexus Xierra X3
 
-<img src="https://raw.githubusercontent.com/ipang-dwi/efi-high-sierra/master/ss/2.png"/>
+<img src="https://raw.githubusercontent.com/ipang-dwi/efi-mojave/master/img/2.png" />
 
 Perfect work :
 - VGA : Intel HD3000, patch based High Sierra 10.13.6 dari om chris111, optimasi karya om dosdude. Update Intel HD 3000 VRAM 2GB by me, patchnya <a href="https://github.com/ipang-dwi/ihd3000">di sini</a>.
@@ -34,6 +34,8 @@ Perfect work :
 - Tombol Fn, bekerja normal semua, hanya buat Brightness UP and Down yang gak bisa.
 - Brightness : latest SSDT-PNLF.aml dari om Rehabman, work pakai slider dan Tombol F5 - F6, di-remapping pada keyboard shortcut di System Preferences.
 - USB Mouse 7D : Aplikasi SensibleSideButtons dari om Alexei Baboulevitch, tested lancar jaya USB Mouse Rexus Xierra X3.
+
+<img src="https://raw.githubusercontent.com/ipang-dwi/efi-mojave/master/img/3.png" />
 
 Didn't work :
 - Realtek card reader, sudah hukum alam.
@@ -76,7 +78,7 @@ Bagi yang ingin mencoba install, mungkin memiliki Laptop/PC dengan spesifikasi y
 
 Akhir kata, terima kasih kepada semua pihak, baik yang sudah maupun belum atau lupa saya sebutkan. Terutama teman-teman di grup FB Forum Hackintosh Indonesia. Jika ada yang butuh bantuan patch DSDT atau sharing, bisa contact saya.
 
-<img src="https://raw.githubusercontent.com/ipang-dwi/efi-high-sierra/master/ss/xchm.png"/>
+<img src="https://raw.githubusercontent.com/ipang-dwi/efi-mojave/master/img/4.png" />
 
 Feel free to reach me on :
 - https://www.firstplato.com
