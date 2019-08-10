@@ -6,6 +6,10 @@ EFI partition Mojave for Asus X45C - www.firstplato.com - <a href="https://githu
 
 > Nyaman di MacOS Mojave 10.14.6 (18G87) bersama dengan Asus X45C, "The perfect reborn Hackintosh for daily used".
 
+- MacOSX : Mojave
+- Version : 10.14.6 Build 18G87
+- Clover : v2.5k r5033 
+
 Tested on Asus X45C
 - Device : Asus X45C
 - Brand : Asus
