@@ -45,6 +45,7 @@ Running Apps on Screenshot :
 - <a href="https://github.com/dylanaraps/neofetch" target="blank">neofetch</a>
 - <a href="http://www.figlet.org/" target="blank">figlet</a>
 - <a href="https://cmus.github.io/" target="blank">cmus</a>
+- <a href="https://sourceforge.net/projects/xchm/" target="blank">xCHM</a>
 
 Installed Apps :
 - <a href="http://cvad-mac.narod.ru/index/0-4" target="blank">Kext Utility</a>
