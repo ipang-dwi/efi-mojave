@@ -1,5 +1,7 @@
 # efi-mojave
 
+<img src="https://raw.githubusercontent.com/ipang-dwi/efi/master/img/c-moj.png"/>
+
 EFI partition Mojave for Asus X45C - www.firstplato.com - <a href="https://github.com/ipang-dwi/efi-mojave/wiki" target="_blank">Dokumentasi Lengkapnya</a>
 
 <img src="https://raw.githubusercontent.com/ipang-dwi/efi-mojave/master/img/1.png" />
